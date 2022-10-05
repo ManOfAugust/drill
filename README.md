@@ -5,3 +5,5 @@ A simple Python code that generates and outputs random input images. This is use
 You need to change the path through your own folder on the PC and put images there.
 
 Some features may be updated if I have something to do with it.
+
++ 10.05) Added some functions. 
