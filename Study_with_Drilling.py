@@ -11,3 +11,21 @@ case = img.imread(random.choice(jpg))
 plt.imshow(case)
 plt.show()
 
+cnt = []
+
+def continous():
+    while len(cnt) != len(jpg):
+        k = random.choice(jpg)
+        case = img.imread(k)
+        if k in cnt:
+            continue
+        plt.imshow(case)
+        plt.show()
+        stop = input()
+        cnt.append(k)
+
+def for_each():
+    k = random.choice(jpg)
+    case = img.imread(k)
+    plt.imshow(case)
+    plt.show()
