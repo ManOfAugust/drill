@@ -1,4 +1,4 @@
-# Study_with_Drilling
+# drilling
 
 A simple Python code that generates and outputs random input images. This is useful when you want to check if your memorizing status is stable before the actual test.
 
